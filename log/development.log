@@ -1,0 +1,42 @@
+
+
+Started GET "/public" for 127.0.0.1 at Tue Apr 05 15:57:27 -0400 2011
+
+Errno::ENOENT (No such file or directory - /home/blake/rails_apps/Bocasta/config/database.yml):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (16.8ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.9ms)
+
+
+Started GET "/public" for 127.0.0.1 at Tue Apr 05 16:00:16 -0400 2011
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (13)):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/public" for 127.0.0.1 at Tue Apr 05 16:23:15 -0400 2011
+
+ActionController::RoutingError (No route matches "/public"):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at Tue Apr 05 16:24:35 -0400 2011
+
+ActionController::RoutingError (No route matches "/admin"):
+  
+
+Rendered /var/lib/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/public/index" for 127.0.0.1 at Tue Apr 05 16:25:38 -0400 2011
+  Processing by PublicController#index as HTML
+Rendered public/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
